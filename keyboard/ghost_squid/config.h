@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT         Cooler Master QuickFire XT
 
 /* message strings */
-#define DESCRIPTION     t.m.k. keyboard firmware for Cooler Master QuickFire XT
+#define DESCRIPTION     Cooler Master QuickFire XT (Ghost Squid)
 
 /* matrix size */
 #define MATRIX_ROWS 8
@@ -34,6 +34,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Set 0 if need no debouncing */
 #define DEBOUNCE    5
+
+/* Tap to toggle layer. Default: 5 */
+#define TAPPING_TOGGLE  2
+
+/* Forced NKRO to be enabled by default, use Magic Key (LShift+RShift+N) to disable */
+#define FORCE_NKRO
 
 /* key combination for command */
 #define IS_COMMAND() ( \
